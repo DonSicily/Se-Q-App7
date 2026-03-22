@@ -1,0 +1,86 @@
+# ── IDE / editors ──────────────────────────────────────────────────────────────
+.idea/
+.vscode/
+
+# ── Dependencies ────────────────────────────────────────────────────────────────
+node_modules/
+/.pnp
+.pnp.js
+.yarn/install-state.gz
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# ── Python ──────────────────────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.venv/
+*.egg-info/
+
+# ── Environment files ───────────────────────────────────────────────────────────
+.env
+.env.*
+*.env
+*token.json*
+*credentials.json*
+
+# ── Logs ────────────────────────────────────────────────────────────────────────
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+dump.rdb
+
+# ── System files ────────────────────────────────────────────────────────────────
+.DS_Store
+*.pem
+
+# ── Build / cache ───────────────────────────────────────────────────────────────
+/coverage
+/.next/
+/out/
+/build
+dist/
+.cache/
+next-env.d.ts
+*.tsbuildinfo
+
+# ── Expo / React Native ─────────────────────────────────────────────────────────
+frontend/.expo/
+frontend/dist/
+android-sdk/
+
+# ── Archive / large binary assets ──────────────────────────────────────────────
+**/*.zip
+**/*.tar.gz
+**/*.tar
+**/*.tgz
+*.pack
+*.deb
+*.dylib
+
+# ── Backend uploaded media (user runtime files — use cloud storage in production)
+backend/uploads/photos/*.jpg
+backend/uploads/photos/*.jpeg
+backend/uploads/photos/*.png
+backend/uploads/photos/*.gif
+backend/uploads/videos/*.mp4
+backend/uploads/videos/*.mov
+backend/uploads/videos/*.avi
+backend/uploads/audio/*.m4a
+backend/uploads/audio/*.mp3
+backend/uploads/audio/*.wav
+backend/uploads/audio/*.3gp
+backend/uploads/audio/*.ogg
+
+# ── Emergent-agent scaffolding (dev scaffolding, not for stakeholders) ─────────
+.emergent/
+memory/
+test_reports/
+test_result.md
+backend_test.py
+model.patch
